@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { empty } from 'rxjs';
 
 
 @Component({
@@ -8,6 +9,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-Opfriscursus-Angular';
-
-  persons: string[] = ['anna','polly','william','fabianne'];
 }
